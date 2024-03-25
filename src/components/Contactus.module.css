@@ -1,0 +1,110 @@
+.contactus {
+  width: 80%;
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.background {
+  width: 100%;
+  position: absolute;
+  z-index: -10;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  background-color: #091242;
+  margin: auto;
+  margin-top: 10%;
+  padding-block: 5rem;
+}
+.ticket p {
+  background: rgba(232, 232, 232, 0.1);
+  color: white;
+  font-family: "Rubik";
+  font-size: 0.8rem;
+  font-weight: 400;
+  padding-inline: 0.5rem;
+  padding-block: 0.3rem;
+  width: fit-content;
+  margin-bottom: 0.5rem;
+  border-left: 4px solid #ffd651;
+}
+.form h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "Rubik";
+  font-size: 2.1875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.comment {
+  color: #fff;
+  text-align: center;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 151.523%; /* 1.51525rem */
+  max-width: 60%;
+  margin-bottom: 1.5rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.input {
+  width: 48%;
+  margin: auto;
+  max-height: 3.75rem;
+  border: 1px solid #e0e0e0;
+  padding: 1.3rem;
+}
+.input::placeholder {
+  color: #d8d8d8;
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+.input:focus {
+  border: none;
+  border-radius: 0;
+  background-color: white;
+  color: #091242;
+  outline: none;
+  font-weight: 500;
+}
+.message {
+  width: 100%;
+  height: 9rem;
+  border: 1px solid #e0e0e0;
+  padding: 1.3rem;
+  display: flex;
+  resize: none;
+}
+.message::placeholder {
+  color: #d8d8d8;
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+.form button {
+  color: #23212a;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 135.023%;
+  background-image: url(../assets/button.png);
+  background-size: cover;
+  padding-inline: 2rem;
+  padding-block: 1rem;
+  margin-top: 1.5rem;
+}

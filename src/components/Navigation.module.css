@@ -1,0 +1,33 @@
+.navbar {
+  background-color: rgba(9, 18, 66, 0.25);
+  backdrop-filter: blur(7px);
+  width: 100vw;
+  align-items: center;
+  display: flex;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ul {
+  display: flex;
+  gap: 2rem;
+}
+.ul a {
+  color: white;
+  padding-right: 2rem;
+  border-right: 1px solid white;
+}
+.contact {
+  padding: 1.75rem 3.25rem;
+  color: #23212a;
+  background-color: white;
+  cursor: pointer;
+  font-family: Krub;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+}

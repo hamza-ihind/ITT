@@ -1,0 +1,114 @@
+.header {
+  /* width: 100%;
+  background-image: url("../assets/background-home.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  color: white;
+  flex-grow: 1;
+}
+.background {
+  position: absolute;
+  z-index: -10;
+  width: 100%;
+  align-items: center;
+  min-height: 120vh;
+  object-fit: cover;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 15rem;
+  min-height: 15rem;
+}
+.container h1 {
+  font-size: 3.75rem;
+  max-width: 35rem;
+  font-family: "Rubik";
+  font-weight: 700;
+}
+.container p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 151.523%;
+  max-width: 35rem;
+}
+.container button {
+  color: #23212a;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 135.023%;
+  background-image: url(../assets/button.png);
+  background-size: cover;
+  padding-inline: 3rem;
+  padding-block: 1rem;
+  margin-top: 1.5rem;
+}
+.about {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: white;
+  padding: 6rem;
+  border-right: 4px solid #ffd651;
+  margin-top: 8rem;
+  border-left: 4px solid #ffd651;
+}
+.about {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: white;
+  padding: 6rem;
+  border-right: 4px solid #ffd651;
+  margin-top: 8rem;
+  border-left: 4px solid #ffd651;
+}
+.Title h2 {
+  color: #1c1f35;
+  min-width: 8rem;
+  max-width: 17rem;
+  font-family: "Rubik";
+  font-size: 2rem;
+  font-weight: 600;
+}
+.about p {
+  color: #666c89;
+  max-width: 42rem;
+  min-width: 0.66rem;
+  color: #666c89;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 2.1875rem; /* 165.485% */
+}
+.ticket p {
+  background-color: rgba(232, 232, 232, 0.5);
+  color: #1c1f35;
+  font-family: "Rubik";
+  font-size: 0.8rem;
+  font-weight: 400;
+  padding-inline: 0.5rem;
+  padding-block: 0.1rem;
+  width: fit-content;
+  margin-bottom: 0.5rem;
+  border-left: 4px solid #ffd651;
+}
+.services {
+  background-image: url("../assets/Backgroundservices.jpg");
+  background-repeat: no-repeat;
+  padding-top: 3%;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+}

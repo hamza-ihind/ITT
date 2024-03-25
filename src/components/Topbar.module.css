@@ -1,0 +1,28 @@
+.topbar {
+  background-color: #091242;
+  width: 100vw;
+  padding-block: 1rem;
+}
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.adress {
+  display: flex;
+  gap: 2rem;
+  color: white;
+}
+.element {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.8rem;
+}
+.icon {
+  max-width: 3rem;
+}
+.logo {
+  max-width: 10rem;
+}
