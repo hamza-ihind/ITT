@@ -10,7 +10,7 @@ export const Layout = () => {
         <Routes>
           <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/About" element={<About />} />
+          <Route path="/about" element={<About />} />
           <Route path="/*" element={<Notfound />} />
         </Routes>
       </BrowserRouter>

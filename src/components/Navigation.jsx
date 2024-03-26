@@ -14,7 +14,7 @@ export const Navigation = () => {
               </a>
             </li>
             <li>
-              <a className={styles.page} href="\home">
+              <a className={styles.page} href="\about">
                 About
               </a>
             </li>

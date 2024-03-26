@@ -1,0 +1,62 @@
+.about {
+  position: relative;
+}
+.background {
+  position: absolute;
+  z-index: -10;
+  width: 100%;
+  align-items: center;
+  object-fit: cover;
+  min-height: 50vh;
+}
+.title {
+  width: 80%;
+  margin: auto;
+}
+.title h1 {
+  position: relative;
+  font-size: clamp(2.7rem, 4vw, 5.46194rem);
+  padding-top: 15rem;
+  color: white;
+  font-family: "Rubik";
+  min-height: 50vh;
+}
+.img1 {
+  width: 100%;
+  object-fit: cover;
+}
+.section1 {
+  width: 80%;
+  margin: auto;
+}
+.section1 p {
+  margin-top: 0.5rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-block: 7rem;
+}
+.container p {
+  font-size: clamp(0.6rem, 2vw, 1.2rem);
+  color: #666c89;
+  font-weight: 400;
+  line-height: 151.523%;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+.section p {
+  max-width: 40%;
+}
+.section img {
+  max-width: 55%;
+}
+.except {
+  flex-direction: row-reverse;
+}
