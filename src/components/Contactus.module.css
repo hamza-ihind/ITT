@@ -76,7 +76,7 @@
   font-size: 0.7rem;
   font-weight: 300;
 }
-.input:focus {
+.input:focus .message:focus {
   border: none;
   border-radius: 0;
   background-color: white;
@@ -102,7 +102,7 @@
   font-size: 1rem;
   font-weight: 600;
   line-height: 135.023%;
-  background-image: url(../assets/button.png);
+  background-image: url(../assets/button.webp);
   background-size: cover;
   padding-inline: 2rem;
   padding-block: 1rem;
