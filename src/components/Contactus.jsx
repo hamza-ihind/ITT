@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Contactus.module.css";
-import background from "../assets/Rectanglegradient.png";
+import background from "../assets/Rectanglegradient.webp";
 export const Contactus = () => {
   return (
     <div className={styles.contactus}>

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Home.module.css";
 import { Contactus } from "../components/Contactus";
-import background from "../assets/background-home.png";
+import background from "../assets/background-home.webp";
 
 export const Home = () => {
   return (
