@@ -19,7 +19,9 @@ export const Home = () => {
             in arcu no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus
             finibus, enim diam interdum nulla, sed laoreet risus lectus.{" "}
           </p>
-          <button className={styles.contactus}>Contact us</button>
+          <button className={styles.contactus}>
+            <a href="#contact">Contact us</a>
+          </button>
         </header>
         <div className={styles.about}>
           <div className={styles.Title}>
