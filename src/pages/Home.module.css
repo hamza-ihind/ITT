@@ -1,3 +1,8 @@
+/* Define a CSS variable for minimum font size */
+:root {
+  --min-font-size: 4vw;
+}
+
 .header {
   /* width: 100%;
   background-image: url("../assets/background-home.png");
@@ -7,6 +12,7 @@
   color: white;
   flex-grow: 1;
 }
+
 .background {
   position: absolute;
   z-index: -10;
@@ -15,6 +21,7 @@
   min-height: 120vh;
   object-fit: cover;
 }
+
 .container {
   width: 80%;
   margin: auto;
@@ -25,21 +32,23 @@
   margin-top: 15rem;
   min-height: 15rem;
 }
+
 .container h1 {
-  font-size: 3.75rem;
-  max-width: 35rem;
+  font-size: clamp(2.1875rem, 4vw, 3.75rem);
   font-family: "Rubik";
   font-weight: 700;
 }
+
 .container p {
-  font-size: 1rem;
+  font-size: clamp(0.3rem, 4vw, 1rem);
   font-weight: 300;
   line-height: 151.523%;
-  max-width: 35rem;
+  max-width: 45%;
 }
+
 .container button {
   color: #23212a;
-  font-size: 1rem;
+  font-size: clamp(0.7rem, 4vw, 1rem);
   font-weight: 600;
   line-height: 135.023%;
   background-image: url(../assets/button.webp);
@@ -48,6 +57,7 @@
   padding-block: 1rem;
   margin-top: 1.5rem;
 }
+
 .about {
   width: 80%;
   margin: auto;
@@ -60,40 +70,31 @@
   margin-top: 8rem;
   border-left: 4px solid #ffd651;
 }
-.about {
-  width: 80%;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  background-color: white;
-  padding: 6rem;
-  border-right: 4px solid #ffd651;
-  margin-top: 8rem;
-  border-left: 4px solid #ffd651;
-}
+
 .Title h2 {
   color: #1c1f35;
   min-width: 8rem;
   max-width: 17rem;
   font-family: "Rubik";
-  font-size: 2rem;
+  font-size: clamp(1.3rem, 4vw, 2rem);
   font-weight: 600;
 }
+
 .about p {
   color: #666c89;
   max-width: 42rem;
   min-width: 0.66rem;
   color: #666c89;
-  font-size: 1.3rem;
+  font-size: clamp(0.8rem, 4vw, 1.3rem);
   font-weight: 500;
   line-height: 2.1875rem; /* 165.485% */
 }
+
 .ticket p {
   background-color: rgba(232, 232, 232, 0.5);
   color: #1c1f35;
   font-family: "Rubik";
-  font-size: 0.8rem;
+  font-size: clamp(0.35rem, 4vw, 0.8rem);
   font-weight: 400;
   padding-inline: 0.5rem;
   padding-block: 0.1rem;
@@ -101,14 +102,47 @@
   margin-bottom: 0.5rem;
   border-left: 4px solid #ffd651;
 }
+
 .services {
   background-image: url("../assets/Backgroundservices.webp");
   background-repeat: no-repeat;
   padding-top: 3%;
 }
-
+.services .about {
+  border: none;
+}
 .home {
   display: flex;
   flex-direction: column;
   height: max-content;
+}
+
+@media only screen and (max-width: 660px) {
+  .container {
+    text-align: center;
+    justify-content: center !important;
+    align-items: center;
+  }
+  .container p {
+    max-width: none !important;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .about {
+    flex-direction: column;
+    padding-inline: 2rem;
+  }
+  .Title h2 {
+    max-width: 70%;
+  }
+  .about {
+    align-items: start !important;
+  }
+  .about p {
+    font-size: 3vw;
+    line-height: 165%;
+  }
+  .ticket {
+    margin-bottom: 1rem;
+  }
 }

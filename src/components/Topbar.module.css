@@ -9,6 +9,19 @@
   justify-content: space-between;
   margin: auto;
 }
+@media only screen and (max-width: 834px) {
+  .icon,
+  .text {
+    display: none;
+  }
+  .container {
+    justify-content: center;
+  }
+  .adress {
+    width: 0;
+  }
+}
+
 .adress {
   display: flex;
   gap: 2rem;

@@ -1,3 +1,8 @@
+/* Define a CSS variable for minimum font size */
+:root {
+  --min-font-size: 4vw;
+}
+
 .navbar {
   background-color: rgba(9, 18, 66, 0.25);
   backdrop-filter: blur(7px);
@@ -5,6 +10,7 @@
   align-items: center;
   display: flex;
 }
+
 .container {
   width: 80%;
   margin: auto;
@@ -12,22 +18,37 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .ul {
   display: flex;
   gap: 2rem;
 }
+
 .ul a {
   color: white;
   padding-right: 2rem;
   border-right: 1px solid white;
+  font-size: clamp(0.5rem, 4vw, 1rem); /* Apply clamp function */
 }
+
 .contact {
   padding: 1.75rem 3.25rem;
   color: #23212a;
   background-color: white;
   cursor: pointer;
-  font-family: Krub;
-  font-size: 1rem;
+  font-family: "Krub";
+  font-size: clamp(0.5rem, 4vw, 1rem); /* Apply clamp function */
   font-style: normal;
   font-weight: 600;
+}
+@media only screen and (max-width: 660px) {
+  .contact {
+    display: none;
+  }
+  .navbar {
+    padding-block: 2rem;
+  }
+  .container {
+    justify-content: center;
+  }
 }
