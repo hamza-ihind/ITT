@@ -4,7 +4,7 @@
   width: 100%;
   background: #091242;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: clamp(0.3rem, 2vw, 0.8rem);
   padding-block: 1rem;
   font-weight: 300;
 }

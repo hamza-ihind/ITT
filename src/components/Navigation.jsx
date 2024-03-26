@@ -25,7 +25,9 @@ export const Navigation = () => {
             </li>
           </ul>
         </div>
-        <button className={styles.contact}>Contact us</button>
+        <button className={styles.contact}>
+          <a href="#contact">Contact us</a>
+        </button>
       </div>
     </div>
   );

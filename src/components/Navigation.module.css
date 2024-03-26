@@ -33,13 +33,16 @@
 
 .contact {
   padding: 1.75rem 3.25rem;
-  color: #23212a;
+
   background-color: white;
   cursor: pointer;
   font-family: "Krub";
   font-size: clamp(0.5rem, 4vw, 1rem); /* Apply clamp function */
   font-style: normal;
   font-weight: 600;
+}
+.contact a {
+  color: #23212a;
 }
 @media only screen and (max-width: 660px) {
   .contact {

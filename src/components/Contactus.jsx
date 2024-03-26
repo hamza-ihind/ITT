@@ -3,7 +3,7 @@ import styles from "./Contactus.module.css";
 import background from "../assets/Rectanglegradient.webp";
 export const Contactus = () => {
   return (
-    <div className={styles.contactus}>
+    <div id="contact" className={styles.contactus}>
       <img
         className={styles.background}
         src={background}
