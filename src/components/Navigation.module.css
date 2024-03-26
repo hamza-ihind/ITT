@@ -24,10 +24,14 @@
   gap: 2rem;
 }
 
-.ul a {
+.page {
   color: white;
   padding-right: 2rem;
   border-right: 1px solid white;
+  font-size: clamp(0.5rem, 4vw, 1rem); /* Apply clamp function */
+}
+.except {
+  color: white;
   font-size: clamp(0.5rem, 4vw, 1rem); /* Apply clamp function */
 }
 
@@ -44,12 +48,14 @@
 .contact a {
   color: #23212a;
 }
+
 @media only screen and (max-width: 660px) {
   .contact {
     display: none;
   }
   .navbar {
     padding-block: 2rem;
+    justify-content: center;
   }
   .container {
     justify-content: center;

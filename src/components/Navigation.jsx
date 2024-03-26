@@ -19,7 +19,7 @@ export const Navigation = () => {
               </a>
             </li>
             <li>
-              <a className={styles.page} href="\home">
+              <a className={styles.except} href="\home">
                 Services
               </a>
             </li>
