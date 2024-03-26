@@ -3,9 +3,18 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from "../pages/Home";
 import { Notfound } from "../pages/Notfound";
 import { About } from "../pages/About";
+import { Topbar } from "../components/Topbar";
+import { Navigation } from "../components/Navigation";
+import { Footer } from "../components/Footer";
+import styles from "./Layout.module.css";
 export const Layout = () => {
   return (
     <div>
+      <div className={styles.bar}>
+        <Topbar />
+        <Navigation />
+      </div>
+
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
@@ -14,6 +23,8 @@ export const Layout = () => {
           <Route path="/*" element={<Notfound />} />
         </Routes>
       </BrowserRouter>
+
+      <Footer />
     </div>
   );
 };

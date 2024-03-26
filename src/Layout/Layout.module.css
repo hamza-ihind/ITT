@@ -1,0 +1,8 @@
+.bar {
+  position: fixed;
+  z-index: 55;
+  top: 0;
+}
+* {
+  scroll-behavior: smooth;
+}
