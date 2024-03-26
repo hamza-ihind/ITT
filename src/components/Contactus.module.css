@@ -137,11 +137,16 @@
   justify-content: center;
   width: 80%;
 }
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 1175px) {
   .comment {
-    font-size: 3vw;
+    font-size: 1.5vw;
   }
   .input {
-    width: 100%;
+    width: 100% !important;
+  }
+  .form button {
+    font-size: 3vw;
+    width: 80%;
+    text-align: center;
   }
 }
